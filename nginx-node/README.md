@@ -1,2 +1,4 @@
-Build and run with
+
+## Build and run with
+
 `docker-compose up --build`
