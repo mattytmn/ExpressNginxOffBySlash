@@ -4,6 +4,8 @@ services:
     restart: on-failure
     build:
       context: ./app
+    cap_drop:
+      - ALL
     expose:
       - "3000"
   nginx:
